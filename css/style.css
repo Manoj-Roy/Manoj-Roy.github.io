@@ -1,3 +1,11 @@
+.row {position: relative;}
+.tabs .indicator {background-color: #689f38;}
+.tabs .tab a {color: #689f38;}
+.tabs .tab a:hover {color: #689f38;}
+.formPreview {
+    color: #689f38;
+}
+.formPreview:focus {background-color: transparent;}
 .fb-add-field-types a {
     width: 100%;
     /*height: 134px;*/
@@ -20,7 +28,7 @@
 	border-right: 1px solid #ccc;
 	background-color: #fff;
 }
-.fb-add-field-types a {display: none; background-color: #42a5f5  ;}
+.fb-add-field-types a {/*display: none;*/ background-color: transparent !important; color: #000 !important;}
 a[data-field-type="text"],a[data-field-type="checkboxes"],a[data-field-type="radio"],a[data-field-type="button"],a[data-field-type="text"] {display: block !important;}
 input:not([type]), input[type=text], input[type=password], input[type=email], input[type=url], input[type=time], input[type=date], input[type=datetime], input[type=datetime-local], input[type=tel], input[type=number], input[type=search], textarea.materialize-textarea {border-bottom: 1.5px solid #1765a5;}
 /*[type="checkbox"]:not(:checked), [type="checkbox"]:checked {
@@ -69,7 +77,7 @@ input:not([type]):focus:not([readonly]), input[type=text]:focus:not([readonly]),
 }
 #myframe1 {border: none;}
 .fb-right {padding-right: 20px;}
-.modal {width: 100%; top: 0 !important; max-height: 100%;}
+#modal1 {width: 100%; top: 0 !important; max-height: 100%;}
 .fb-tab-content .fb-tab-pane {padding: 0}
 .edit-response-field {padding: 0 12px;}
 .hidden {display: none;}
@@ -96,3 +104,11 @@ input:not([type]):focus:not([readonly]), input[type=text]:focus:not([readonly]),
     width: 15%;
     float: none !important;
 }
+.fb-field-wrapper:hover .subtemplate-wrapper {border-color: #689f38;}
+.form-parent {
+    background-image: url(../img/pen_hand.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: 30%;
+}
+.lean-overlay {z-index: 3 !important;}
