@@ -1,0 +1,114 @@
+.row {position: relative;}
+.tabs .indicator {background-color: #689f38;}
+.tabs .tab a {color: #689f38;}
+.tabs .tab a:hover {color: #689f38;}
+.formPreview {
+    color: #689f38;
+}
+.formPreview:focus {background-color: transparent;}
+.fb-add-field-types a {
+    width: 100%;
+    /*height: 134px;*/
+    /*line-height: 140px;*/
+    /*font-size: 20px;*/
+}
+.subtemplate-wrapper label {
+    font-size: initial;
+}
+.subtemplate-wrapper label span {
+    font-size: initial;
+    color: #0e0e0e;
+}
+.btn:hover, .btn-large:hover {
+    background-color: #64b5f6;
+}
+.fb-option {color: #464646;}
+.fb-no-response-fields {color: #fff;}
+.fb-left {
+	border-right: 1px solid #ccc;
+	background-color: #fff;
+}
+.fb-add-field-types a {/*display: none;*/ background-color: transparent !important; color: #000 !important;}
+a[data-field-type="text"],a[data-field-type="checkboxes"],a[data-field-type="radio"],a[data-field-type="button"],a[data-field-type="text"] {display: block !important;}
+input:not([type]), input[type=text], input[type=password], input[type=email], input[type=url], input[type=time], input[type=date], input[type=datetime], input[type=datetime-local], input[type=tel], input[type=number], input[type=search], textarea.materialize-textarea {border-bottom: 1.5px solid #1765a5;}
+/*[type="checkbox"]:not(:checked), [type="checkbox"]:checked {
+	opacity: 1;
+	position: static;
+}
+[type="radio"]:not(:checked), [type="radio"]:checked {
+	opacity: 1;
+	position: static;
+}*/
+input[type="checkbox"], input[type="radio"] {
+	position: inherit !important;
+	opacity: 1 !important;
+}
+input:not([type]):focus:not([readonly]), input[type=text]:focus:not([readonly]), input[type=password]:focus:not([readonly]), input[type=email]:focus:not([readonly]), input[type=url]:focus:not([readonly]), input[type=time]:focus:not([readonly]), input[type=date]:focus:not([readonly]), input[type=datetime]:focus:not([readonly]), input[type=datetime-local]:focus:not([readonly]), input[type=tel]:focus:not([readonly]), input[type=number]:focus:not([readonly]), input[type=search]:focus:not([readonly]), textarea.materialize-textarea:focus:not([readonly]) {
+	border: none;
+	border-bottom: 1px solid #26a69a;
+    box-shadow: 0 1px 0 0 #26a69a;
+}
+
+
+.tabs {
+	width: 100% !important;
+	height: auto !important;
+	padding: 0 !important;
+}
+.fb-tabs li.active a {
+	border: none;
+}
+.fb-right {position: relative;}
+.formPreview {
+    position: absolute;
+    top: 3%;
+    left: 1%;
+    /*padding: 1% 2%;*/
+    background-color: #fff;
+    color: #000;
+}
+.formPreview:hover {
+	background-color: #fff;
+}
+.closePreview {
+    position: absolute;
+    right: 15px;
+    top: 15px;
+}
+#myframe1 {border: none;}
+.fb-right {padding-right: 20px;}
+#modal1 {width: 100%; top: 0 !important; max-height: 100%;}
+.fb-tab-content .fb-tab-pane {padding: 0}
+.edit-response-field {padding: 0 12px;}
+.hidden {display: none;}
+ .loaderDiv {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    z-index: 11;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+.spin-position{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+}
+.checkLabel {
+    width: 100%;
+    float: left;
+}
+.save-form-btn {
+    margin: 0 auto !important;
+    display: block;
+    width: 15%;
+    float: none !important;
+}
+.fb-field-wrapper:hover .subtemplate-wrapper {border-color: #689f38;}
+.form-parent {
+    background-image: url(../img/pen_hand.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: 30%;
+}
+.lean-overlay {z-index: 3 !important;}
